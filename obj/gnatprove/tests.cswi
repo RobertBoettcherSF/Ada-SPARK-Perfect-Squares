@@ -1,0 +1,10 @@
+20260918180856
+-c
+-x
+ada
+-gnatA
+-gnatwa
+-gnat2022
+-gnata
+-gnatc
+-gnates=/workspace/Ada-SPARK-Perfect-Squares/obj/gnatprove/f40ca1eb.tmp

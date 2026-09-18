@@ -1,0 +1,34 @@
+V "GNAT Lib v16"
+M P W=b
+A -gnatA
+A -gnatwa
+A -gnat2022
+A -gnata
+A -gnatR2js
+A -gnatws
+A -gnatx
+A -gnatis
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U tests%b		tests.adb		14b44f4f NE OO SU
+W perfect_squares%s	perfect_squares.adb	perfect_squares.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+
+D ada.ads		20260430083320 76789da1 ada%s
+D a-assert.ads		20260430083320 ba465f5c ada.assertions%s
+D a-unccon.ads		20260430083320 0e9b276f ada.unchecked_conversion%s
+D perfect_squares.ads	20260918180816 4aa1cfe6 perfect_squares%s
+D system.ads		20260430083320 e2b7c99d system%s
+D s-assert.ads		20260430083320 9c4520c7 system.assertions%s
+D s-exctab.ads		20260430083320 91bef6ef system.exception_table%s
+D s-stalib.ads		20260430083320 1c9580f6 system.standard_library%s
+D tests.adb		20260918180816 5e1580a9 tests%b
+G a e
+G c Z b b [tests standard 2 11 none]
+G r c none [tests standard 2 11 none] [minimum perfect_squares 5 13 none]
+
